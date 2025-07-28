@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <main role="main" class="col-md-10 offset-md-2 pt-3 main">
+      <pre>
+                               ...
+                             ;::::;
+                           ;::::; :;
+                         ;:::::'   :;
+                        ;:::::;     ;.
+                       ,:::::'       ;           OOO\
+                       ::::::;  -  - ;          OOOOO\
+                       ;:::::;       ;         OOOOOOOO
+                      ,;::::::;     ;'         / OOOOOOO
+                    ;:::::::::`. ,,,;.        /  / DOOOOOO
+                  .';:::::::::::::::::;,     /  /     DOOOO
+                 ,::::::;::::::;;;;::::;,   /  /        DOOO
+                ;`::::::`'::::::;;;::::: ,#/  /          DOOO
+                :`:::::::`;::::::;;::: ;::#  /            DOOO
+                ::`:::::::`;:::::::: ;::::# /              DOO
+                `:`:::::::`;:::::: ;::::::#/               DOO
+                 :::`:::::::`;; ;:::::::::##                OO
+                 ::::`:::::::`;::::::::;:::#                OO
+                 `:::::`::::::::::::;'`:;::#                O
+                  `:::::`::::::::;' /  / `:#
+                   ::::::`:::::;'  /  /   `#
+
+                      <span style="color: red;font-size:16px" th:text="${error}"></span>
+      </pre>
+        </main>
+    </div>
+</div>
+
+<!-- 引入script -->
+<div th:replace="~{commons/commons::script}"></div>
+
+</body>
+</html>

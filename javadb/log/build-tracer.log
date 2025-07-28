@@ -1,0 +1,105 @@
+[T 16:01:13 15804] Initializing tracer.
+[T 16:01:13 15804] Initializing tags.
+[T 16:01:13 15804] CodeQL CLI version 2.22.0
+[T 16:01:13 15804] Initializing tracer.
+[T 16:01:13 15804] Initializing tags.
+[T 16:01:13 15804] Failed to open tags database: 3.
+[T 16:01:13 15804] Failed to allocate ID for parent  with seed 11940097950048337340
+[T 16:01:13 15804] ==== Candidate to intercept: D:\tools\CodeQL\codeql\codeql\tools\win64\runner.exe (44748) ====
+[T 16:01:13 15804] Lua: === Intercepted call to d:\tools\codeql\codeql\codeql\tools\win64\runner.exe ===
+[T 16:01:13 15804] Executing the following tracer actions:
+[T 16:01:13 15804] Tracer actions:
+[T 16:01:13 15804] pre_invocations(0)
+[T 16:01:13 15804] post_invocations(0)
+[T 16:01:13 15804] trace_languages(1): [java]
+[T 16:01:13 44748] Initializing tracer.
+[T 16:01:13 44748] Initializing tags.
+[T 16:01:13 44748] Failed to open tags database: 3.
+[T 16:01:13 44748] Failed to allocate ID for parent  with seed 16661602077461491404
+[T 16:01:13 44748] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (18744) ====
+[T 16:01:13 44748] Lua: === Intercepted call to c:\windows\system32\cmd.exe ===
+[T 16:01:13 44748] Executing the following tracer actions:
+[T 16:01:13 44748] Tracer actions:
+[T 16:01:13 44748] pre_invocations(0)
+[T 16:01:13 44748] post_invocations(0)
+[T 16:01:13 44748] trace_languages(1): [java]
+[T 16:01:13 18744] Initializing tracer.
+[T 16:01:13 18744] Initializing tags.
+[T 16:01:13 18744] Failed to open tags database: 3.
+[T 16:01:13 18744] Failed to allocate ID for parent  with seed 15670988215899146552
+[T 16:01:13 18744] ==== Candidate to intercept: D:\tools\CodeQL\codeql\codeql\tools\win64\java\bin\java.exe (7600) ====
+[T 16:01:13 18744] Lua: === Intercepted call to d:\tools\codeql\codeql\codeql\tools\win64\java\bin\java.exe ===
+[T 16:01:13 18744] Executing the following tracer actions:
+[T 16:01:13 18744] Tracer actions:
+[T 16:01:13 18744] pre_invocations(0)
+[T 16:01:13 18744] post_invocations(0)
+[T 16:01:13 18744] trace_languages(1): [java]
+[T 16:01:13 7600] Initializing tracer.
+[T 16:01:13 7600] Initializing tags.
+[T 16:01:13 7600] Passing through -javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:01:13 7600] Passing through -Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 16:01:13 7600] Intercepted JVM creation with extra hidden args: ['-javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:01:14 7600] Failed to open tags database: 3.
+[T 16:01:14 7600] Failed to allocate ID for parent  with seed 17111782394601414064
+[T 16:01:14 7600] ==== Candidate to intercept: D:\tools\CodeQL\codeql\codeql\tools\win64\runner.exe (23372) ====
+[T 16:01:14 7600] Lua: === Intercepted call to d:\tools\codeql\codeql\codeql\tools\win64\runner.exe ===
+[T 16:01:14 7600] Executing the following tracer actions:
+[T 16:01:14 7600] Tracer actions:
+[T 16:01:14 7600] pre_invocations(0)
+[T 16:01:14 7600] post_invocations(0)
+[T 16:01:14 7600] trace_languages(1): [java]
+[T 16:01:14 23372] Initializing tracer.
+[T 16:01:14 23372] Initializing tags.
+[T 16:01:14 23372] Failed to open tags database: 3.
+[T 16:01:14 23372] Failed to allocate ID for parent  with seed 2043014392500476748
+[T 16:01:14 23372] ==== Candidate to intercept: C:\Windows\System32\cmd.exe (32712) ====
+[T 16:01:14 23372] Lua: === Intercepted call to c:\windows\system32\cmd.exe ===
+[T 16:01:14 23372] Executing the following tracer actions:
+[T 16:01:14 23372] Tracer actions:
+[T 16:01:14 23372] pre_invocations(0)
+[T 16:01:14 23372] post_invocations(0)
+[T 16:01:14 23372] trace_languages(1): [java]
+[T 16:01:14 32712] Initializing tracer.
+[T 16:01:14 32712] Initializing tags.
+[T 16:01:14 32712] Failed to open tags database: 3.
+[T 16:01:14 32712] Failed to allocate ID for parent  with seed 18310958008336678856
+[T 16:01:14 32712] ==== Candidate to intercept: C:\Program Files\Java\jdk1.8.0_101\bin\java.exe (6480) ====
+[T 16:01:14 32712] Lua: === Intercepted call to c:\program files\java\jdk1.8.0_101\bin\java.exe ===
+[T 16:01:14 32712] Executing the following tracer actions:
+[T 16:01:14 32712] Tracer actions:
+[T 16:01:14 32712] pre_invocations(0)
+[T 16:01:14 32712] post_invocations(0)
+[T 16:01:14 32712] trace_languages(1): [java]
+[T 16:01:14 6480] Initializing tracer.
+[T 16:01:14 6480] Initializing tags.
+[T 16:01:14 6480] Passing through -javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:01:14 6480] Passing through -Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 16:01:15 6480] Intercepted JVM creation with extra hidden args: ['-javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:01:19 6480] Failed to open tags database: 3.
+[T 16:01:19 6480] Failed to allocate ID for parent  with seed 16491219681152080208
+[T 16:01:19 6480] ==== Candidate to intercept: D:\tools\CodeQL\codeql\codeql\java\tools\win64\jdk-extractor-java\bin\java.exe (1704) ====
+[T 16:01:19 6480] Lua: === Intercepted call to d:\tools\codeql\codeql\codeql\java\tools\win64\jdk-extractor-java\bin\java.exe ===
+[T 16:01:19 6480] Executing the following tracer actions:
+[T 16:01:19 6480] Tracer actions:
+[T 16:01:19 6480] pre_invocations(0)
+[T 16:01:19 6480] post_invocations(0)
+[T 16:01:19 6480] trace_languages(1): [java]
+[T 16:01:19 1704] Initializing tracer.
+[T 16:01:19 1704] Initializing tags.
+[T 16:01:19 1704] Passing through -javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:01:19 1704] Passing through -Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 16:01:19 1704] Intercepted JVM creation with extra hidden args: ['-javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:01:21 6480] Failed to open tags database: 3.
+[T 16:01:21 6480] Failed to allocate ID for parent  with seed 12762970661274523984
+[T 16:01:21 6480] ==== Candidate to intercept: D:\tools\CodeQL\codeql\codeql\java\tools\win64\jdk-extractor-java\bin\java.exe (41892) ====
+[T 16:01:21 6480] Lua: === Intercepted call to d:\tools\codeql\codeql\codeql\java\tools\win64\jdk-extractor-java\bin\java.exe ===
+[T 16:01:21 6480] Executing the following tracer actions:
+[T 16:01:21 6480] Tracer actions:
+[T 16:01:21 6480] pre_invocations(0)
+[T 16:01:21 6480] post_invocations(0)
+[T 16:01:21 6480] trace_languages(1): [java]
+[T 16:01:21 41892] Initializing tracer.
+[T 16:01:21 41892] Initializing tags.
+[T 16:01:21 41892] Passing through -javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:01:21 41892] Passing through -Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar to underlying JVM.
+[T 16:01:21 41892] Intercepted JVM creation with extra hidden args: ['-javaagent:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:D:\tools\CodeQL\codeql\codeql\java\tools\codeql-java-agent.jar' ] (result: 1, 0).

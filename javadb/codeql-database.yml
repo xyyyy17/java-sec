@@ -1,0 +1,41 @@
+---
+sourceLocationPrefix: D:\代码审计\Hello-Java-Sec-master\Hello-Java-Sec-master
+baselineLinesOfCode: 3138
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+inProgress:
+  primaryLanguage: java
+  installedExtractors:
+    actions:
+     - D:/tools/CodeQL/codeql/codeql/actions
+    cpp:
+     - D:/tools/CodeQL/codeql/codeql/cpp
+    csharp:
+     - D:/tools/CodeQL/codeql/codeql/csharp
+    csv:
+     - D:/tools/CodeQL/codeql/codeql/csv
+    go:
+     - D:/tools/CodeQL/codeql/codeql/go
+    html:
+     - D:/tools/CodeQL/codeql/codeql/html
+    java:
+     - D:/tools/CodeQL/codeql/codeql/java
+    javascript:
+     - D:/tools/CodeQL/codeql/codeql/javascript
+    properties:
+     - D:/tools/CodeQL/codeql/codeql/properties
+    python:
+     - D:/tools/CodeQL/codeql/codeql/python
+    ruby:
+     - D:/tools/CodeQL/codeql/codeql/ruby
+    swift:
+     - D:/tools/CodeQL/codeql/codeql/swift
+    xml:
+     - D:/tools/CodeQL/codeql/codeql/xml
+    yaml:
+     - D:/tools/CodeQL/codeql/codeql/yaml
+creationMetadata:
+  cliVersion: 2.22.0
+  creationTime: 2025-06-23T16:01:13.200195600Z
+finalised: false

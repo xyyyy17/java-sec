@@ -1,0 +1,15 @@
+.idea
+.vscode
+/logs/
+/target/
+/out
+/backups/
+/docker_mysql/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.DS_Store
